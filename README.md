@@ -224,7 +224,7 @@ main()
 }
 ```
 The code here is easy, just read the data from `myfs` and change the value in the `buf[0x438]` and `buf[0x439]`. Write the data into a new file named `fs.new`.  
-![fig3](https://raw.githubusercontent.com/Rust401/ZJU_OS_lab3/master/image/fig3.png)
+![fig3](https://raw.githubusercontent.com/Rust401/ZJU_OS_lab3/master/image/fig3.png)  
 Here I modify the original c file and make the change could assign to specific fileName.  
 Read from `myfs` and write to `newfs`. Now the magic number in myfs is `0xEF53` and the magic number in newfs is `0x6666`.
 
